@@ -23,12 +23,6 @@
 allennlp train config/CQLSTM.jsonnet --include-package work -s ./result/cr_CQLSTM -f
 ```
 
-
-### QIM
-```cmd
-allennlp train config/QIM.jsonnet --include-package work -s ./result/cr_QIM -f
-```
-
 ## Dataset
 Please modify the variable "task_name" in model.jsonnet to change different datasets.
 
